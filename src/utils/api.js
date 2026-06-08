@@ -1,4 +1,4 @@
-export const API_BASE_URL = 'http://localhost:5000/api';
+export const API_BASE_URL = 'https://click-n-go-backend.vercel.app/api';
 
 export const fetchWithAuth = async (endpoint, options = {}) => {
   const token = localStorage.getItem('token');
